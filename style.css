@@ -1,0 +1,74 @@
+/*
+This stylesheet belongs with the index.html file from the template
+
+#variableName = id
+.variableName = class
+*/
+
+
+/*Standard stuff with the body like background color/image*/
+body {
+    background-color: RED;
+    color: BLACK;
+    font-family: sans-serif;
+    padding: 0;
+    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*How the content is aligned on the screen. It is responsive*/
+.content-center {
+    text-align: left;
+    float: left;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.content-left {
+    text-align: left;
+    float: left;
+    width: 35%;
+    padding-left: 25%;
+}
+
+.content-right {
+    text-align: left;
+    float: left;
+    width: 15%;
+    padding-left: 2%;
+}
+
+
+/*Everything to do with the navagation bar*/
+.navBar {
+    list-style-type: none;
+    margin-left: -10%;
+    margin-top: 0;
+    padding-left: -10%;
+    padding-right: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    overflow: hidden;
+    background-color: #0000db;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navItem {
+    display: block;
+    width: 60px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    padding: 3% 1%;
+}
+
+.navItem:hover {
+    background-color: #24db00;
+    color: black;
+}
