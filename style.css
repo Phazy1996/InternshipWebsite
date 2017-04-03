@@ -7,6 +7,7 @@ This stylesheet belongs with the index.html file from the template
 
 
 /*Standard stuff with the body like background color/image*/
+
 body {
     background-color: RED;
     color: BLACK;
@@ -20,6 +21,7 @@ body {
 
 
 /*How the content is aligned on the screen. It is responsive*/
+
 .content-center {
     text-align: left;
     float: left;
@@ -42,7 +44,21 @@ body {
 }
 
 
+/*Everything to do with Images and Videos. Make sure to put images in the correct div to make it responsive*/
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+video {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
 /*Everything to do with the navagation bar*/
+
 .navBar {
     list-style-type: none;
     margin-left: -10%;
